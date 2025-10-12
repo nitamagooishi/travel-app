@@ -1,0 +1,203 @@
+body{
+    background-color:#F1EEDC;
+    color:#3E0703;
+    font-family: 'M PLUS Rounded 1c' ,sans-serif;
+}
+
+.title-title{
+    position: relative;
+    z-index:6;
+    width: 100%;
+    padding: 1px 0px 0px 90px;
+    color:ivory
+
+}
+
+.title-name{
+    margin-bottom:5px;
+}
+
+.content{
+    margin-top: 15%;
+}
+
+.button,
+.button-template{
+    background-color: #B3C8CF;
+    padding:5px;
+}
+
+.button button,
+.button-template button{
+    cursor: pointer;
+    border-style: none;
+    border-radius: 10px;
+    width: auto;
+    color:#3E0703;
+    font-size: medium;
+    background-color: ivory;
+    cursor: pointer;
+    text-align: center; 
+}
+
+.content-1{
+    margin-bottom:30px;
+}
+.content-1,
+.content-2{
+    display: flex;
+    box-sizing: 700px 700px;
+}
+
+.ryotei{
+    min-width: 620px;
+    min-height: 700px;
+    border-style: double;
+    border-radius: 10px 10px;
+    background-color: #E5DDC5;
+    border-color: #B3C8CF;
+    border-width: 5px;
+    border-radius: 10px 10px;
+    margin:0px 10px; 
+}
+
+.ryotei-title,
+.app-title,
+.yarukoto-title,
+.mochimono-title{
+    display: flex;
+    background-color: #B3C8CF;
+    height:60px;
+    width:100%;
+}
+
+.menu{
+    font-size: bold;
+    margin:auto;
+    padding-right:20px;
+}
+
+input,
+textarea{
+    display: flex;
+    border-style: none;
+    border-radius: 10px;
+    width: auto;
+    height:20px;
+    color:#3E0703;
+    font-size: medium;
+    background-color: ivory;
+    margin: 5px;
+    padding:7px 6px;
+}
+
+.app{
+    min-width: 220px;
+    min-height: 700px;
+    border-style: double;
+    border-radius: 10px 10px;
+    background-color: #E5DDC5;
+    border-color: #B3C8CF;
+    border-width: 5px;
+    border-radius: 10px 10px;
+    margin:0px 10px;   
+}
+
+.app-a input{
+    width:170px;
+}
+
+.yarukoto,
+.mochimono{
+    min-width: 420px;
+    min-height: 700px;
+    border-style: double;
+    border-radius: 10px 10px;
+    background-color: #E5DDC5;
+    border-color: #B3C8CF;
+    border-width: 5px;
+    border-radius: 10px 10px;
+    margin:0px 10px;   
+}
+
+.ryotei-a td,
+.app-a td,
+.yarukoto-a td,
+.mochimono-a td{
+    display:flex;
+    align-items: center;
+}
+
+.yarukoto-a input,
+.mochimono-a input{
+    width:330px;
+}
+
+.yarukoto-a button,
+.mochimono-a button,
+.ryotei-a button,
+.app-a button{
+    border-style: none;
+    border-radius: 10px;
+    height:20px;
+    color:#3E0703;
+    font-size: medium;
+    font-weight: bold;
+    background-color: ivory;
+    text-align: center;
+    margin:5px 0px;
+    cursor: pointer;
+    opacity: 0.5;  
+}
+
+input[type ="checkbox"]{
+    width: 25px;
+}
+
+input[type ="checkbox"]{
+    width: 25px;
+}
+
+.custom-shape-divider-top-1760093522 {
+    position: absolute;
+    z-index:3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1760093522 svg {
+    position: relative;
+    display: block;
+    width: calc(140% + 1.0px);
+    height: 120px;
+}
+
+.custom-shape-divider-top-1760093522 .shape-fill {
+    fill:#B3C8CF;
+}
+
+.custom-shape-divider-top-1760093522-2 {
+    position: absolute;
+    z-index:1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1760093522-2 svg {
+    position: relative;
+    display: block;
+    width: calc(140% + 1.0px);
+    height: 135px;
+}
+
+.custom-shape-divider-top-1760093522-2 .shape-fill {
+    fill: white;
+}
