@@ -17,6 +17,21 @@ body{
     margin-bottom:5px;
 }
 
+.select-schedule{
+    margin-top:100px;
+    margin-left: 20px;
+    font-weight: bold;
+    background-color: ivory;
+    border-radius: 10px 10px;
+
+}
+
+.input-schedule{
+    display: flex;
+    border-style: none;
+    cursor: pointer;
+}
+
 .content{
     margin-top: 15%;
 }
