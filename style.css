@@ -8,12 +8,13 @@ body{
     display: flex;
 }
 
-.image-1{
+.image{
     margin:200px 0px 0px 50px;
     width:60px;
     heght:60px;
     border-radius:60px 60px;
 }
+
 .title-title{
     position: relative;
     z-index:6;
