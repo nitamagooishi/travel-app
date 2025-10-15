@@ -4,6 +4,13 @@ body{
     font-family: 'M PLUS Rounded 1c' ,sans-serif;
 }
 
+.object{
+    display: flex;
+}
+
+.image-1{
+    margin:200px 0px 0px 50px;
+}
 .title-title{
     position: relative;
     z-index:6;
@@ -17,23 +24,36 @@ body{
     margin-bottom:5px;
 }
 
+.input-place{
+    border-color: #E5DDC5;
+    border-style: double;
+    width:250px;
+    margin: 10px 0px 15px 10px;
+
+}
+
 .select-schedule{
-    margin-top:100px;
-    margin-left: 20px;
+    margin:80px 0px 0px 20px;
+    padding:10px 0px 10px 10px;
+    width:300px;
     font-weight: bold;
     background-color: ivory;
     border-radius: 10px 10px;
 
+}
+.leftbar{
+    padding-top:10px;
 }
 
 .input-schedule{
     display: flex;
     border-style: none;
     cursor: pointer;
+
 }
 
 .content{
-    margin-top: 15%;
+    margin-top: 30px;
 }
 
 .button,
@@ -46,8 +66,9 @@ body{
 .button-template button{
     cursor: pointer;
     border-style: none;
-    border-radius: 10px;
-    width: auto;
+    border-radius: 30px;
+    width: 30px;
+    height:30px;
     color:#3E0703;
     font-size: medium;
     background-color: ivory;
