@@ -10,6 +10,9 @@ body{
 
 .image-1{
     margin:200px 0px 0px 50px;
+    width:60px;
+    heght:60px;
+    border-radius:60px 60px;
 }
 .title-title{
     position: relative;
