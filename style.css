@@ -8,7 +8,7 @@ body{
     display: flex;
 }
 
-.image{
+img{
     margin:200px 0px 0px 50px;
     width:60px;
     heght:60px;
