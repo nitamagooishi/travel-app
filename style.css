@@ -9,23 +9,30 @@ body{
 }
 
 img{
-    margin:200px 0px 0px 50px;
-    width:60px;
-    heght:60px;
+    margin:200px 0px 0px 30px;
+    width:200px;
+    height:200px;
     border-radius:60px 60px;
 }
 
 .title-title{
     position: relative;
     z-index:6;
+    display:flex;
     width: 100%;
-    padding: 1px 0px 0px 90px;
+    padding: 15px 0px 0px 90px;
     color:ivory
 
 }
 
 .title-name{
     margin-bottom:5px;
+}
+
+.title-image{
+    margin:0px 10px;
+    width:60px;
+    height:60px;
 }
 
 .input-place{
