@@ -9,7 +9,7 @@ body{
 }
 
 img{
-    margin:200px 0px 0px 30px;
+    margin:200px 15px 0px 15px;
     width:200px;
     height:200px;
     border-radius:60px 60px;
@@ -25,14 +25,27 @@ img{
 
 }
 
+.title-title h1{
+    margin:0px 0px 0px 200px;
+    font-weight: lighter;
+}
+
+.title-title h3{
+    margin:0px 0px 0px 220px;
+}
+
 .title-name{
     margin-bottom:5px;
 }
 
 .title-image{
-    margin:0px 10px;
+    margin:0px;
     width:60px;
     height:60px;
+}
+
+.input-title{
+    margin:0px 20%;
 }
 
 .input-place{
@@ -46,12 +59,20 @@ img{
 .select-schedule{
     margin:80px 0px 0px 20px;
     padding:10px 0px 10px 10px;
-    width:300px;
+    width:320px;
+    max-height: 300px;
     font-weight: bold;
     background-color: ivory;
     border-radius: 10px 10px;
 
 }
+
+#startDate,
+#endDate{
+    font-size: 15px;
+    padding:5px;
+}
+
 .leftbar{
     padding-top:10px;
 }
@@ -65,16 +86,17 @@ img{
 
 .content{
     margin-top: 30px;
+    display: flex;
 }
 
-.button,
-.button-template{
+.ryotei button,
+.app button{
     background-color: #B3C8CF;
     padding:5px;
+    margin:5px 0px 0px 5px;
 }
 
-.button button,
-.button-template button{
+.button button{
     cursor: pointer;
     border-style: none;
     border-radius: 30px;
@@ -83,22 +105,105 @@ img{
     color:#3E0703;
     font-size: medium;
     background-color: ivory;
-    cursor: pointer;
     text-align: center; 
 }
 
-.content-1{
-    margin-bottom:30px;
+.upperContent{
+    display: flex;
 }
-.content-1,
+
 .content-2{
     display: flex;
-    box-sizing: 700px 700px;
+    box-sizing: 200px 200px;
+    right:0px;   
+}
+
+.yarukoto{
+    min-width: 400px;
+    min-height: 200px;
+    border-style: double;
+    border-radius: 10px 10px;
+    background-color: #E5DDC5;
+    border-color: #3E0703;
+    border-width: 5px;
+    border-radius: 10px 10px;
+    margin:80px 10px 0px 0px; 
+}
+
+.yarukoto-title{
+    display: flex;
+    background-color: ivory;
+    height:60px;
+    border-radius: 5px 5px;
+    
+}
+
+.yarukoto h4{
+    padding:0px 30%;
+    width:100%
+}
+
+.mochimono{
+    min-width: 400px;
+    min-height: 200px;
+    border-style: double;
+    border-radius: 10px 10px;
+    background-color: #E5DDC5;
+    border-color: #3E0703;
+    border-width: 5px;
+    border-radius: 10px 10px;
+    margin:80px 10px 0px 0px; 
+}
+
+.mochimono h4{
+    padding:0px 0px 0px 40px;
+    
+}
+
+.mochimono-title{
+    display: flex;
+    background-color: ivory;
+    height:60px;
+    border-radius: 5px 5px;
+}
+
+.yarukoto-a input,
+.mochimono-a input{
+    width:300px;
+}
+
+.yarukoto button,
+.mochimono button{
+    background-color: #3E0703;
+    padding:5px;
+    color:ivory;
+    cursor: pointer;
+    font-size: medium;
+    margin:5px 0px 0px 5px;
+}
+
+.button #template{
+    width: 80px;
+    height:30px;
+    text-align: center;
+    padding:2px;
+    margin:0px;
+}
+
+.content-1{
+    display: flex;
+    width:800px;
+    margin:50px auto;
+}
+
+#content-1.content-1{
+    margin-bottom:30px;
+    display: none;
+    min-height: 400px;
 }
 
 .ryotei{
     min-width: 620px;
-    min-height: 700px;
     border-style: double;
     border-radius: 10px 10px;
     background-color: #E5DDC5;
@@ -109,19 +214,31 @@ img{
 }
 
 .ryotei-title,
-.app-title,
-.yarukoto-title,
-.mochimono-title{
+.app-title{
     display: flex;
     background-color: #B3C8CF;
     height:60px;
-    width:100%;
+    margin:auto;
+    border-radius: 5px 5px;
 }
 
-.menu{
-    font-size: bold;
-    margin:auto;
-    padding-right:20px;
+.ryotei-title h4{
+    padding:0px 30%
+}
+
+.ryotei-a{
+    z-index: 2;
+    height: 100%;
+}
+
+.ryotei img{
+    z-index: 1;
+    margin: 300px 0px 0px 0px;
+    height: 80px;
+    width: 80px;
+}
+.app-title h4{
+    padding:0px 20%;
 }
 
 input,
@@ -139,32 +256,17 @@ textarea{
 }
 
 .app{
-    min-width: 220px;
-    min-height: 700px;
+    min-width: 250px;
     border-style: double;
     border-radius: 10px 10px;
     background-color: #E5DDC5;
     border-color: #B3C8CF;
     border-width: 5px;
-    border-radius: 10px 10px;
-    margin:0px 10px;   
+    border-radius: 10px 10px; 
 }
 
 .app-a input{
     width:170px;
-}
-
-.yarukoto,
-.mochimono{
-    min-width: 420px;
-    min-height: 700px;
-    border-style: double;
-    border-radius: 10px 10px;
-    background-color: #E5DDC5;
-    border-color: #B3C8CF;
-    border-width: 5px;
-    border-radius: 10px 10px;
-    margin:0px 10px;   
 }
 
 .ryotei-a td,
@@ -173,11 +275,6 @@ textarea{
 .mochimono-a td{
     display:flex;
     align-items: center;
-}
-
-.yarukoto-a input,
-.mochimono-a input{
-    width:330px;
 }
 
 .yarukoto-a button,
@@ -195,10 +292,6 @@ textarea{
     margin:5px 0px;
     cursor: pointer;
     opacity: 0.5;  
-}
-
-input[type ="checkbox"]{
-    width: 25px;
 }
 
 input[type ="checkbox"]{
