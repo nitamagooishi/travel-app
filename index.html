@@ -22,84 +22,81 @@
       </div>
       <div class="title-title">
         <div class="title-name">
-          <div>旅のしおり</div>
-          <div class="title-content">Your own itinerary</div>
+          <h1>旅のしおり</h1>
+          <h3>Your own itinerary</h3>
         </div>
-        <img class="title-image" src="image/image-2.png" alt="船の写真">
+        <img class="title-image" src="/image/image-2.png" alt="船の写真">
       </div>
     </header>
 
-    <div class="object">
-      <div class="select-schedule">
-        <div>✈ 旅行先を入力しよう ✈</div>
-          <br>
-          <div class="place">行先</div>
-          <input class="input-place"></input>
-        <div>日程</div>
-          <div class="input-schedule">
-            <input type="date"><span class="leftbar">⇒</span></input>
-            <input type="date"></input>
-          </div>
-      </div>
-      <img src="image/image-1.png" alt="1人旅行の写真">
-    </div>
-    
-    <div class="content">
-
-      <div class="content-1">
-        <div class="ryotei">
-          <div class="ryotei-title">
-            <div class="button">
-              <button id="add-1">+</button> 
+    <div class="upperContent">
+      <div class="object">
+        <div class="select-schedule">
+          <div class="input-title">✈ 旅行先を入力しよう ✈</div>
+            <br>
+            <div class="place">行先</div>
+            <input class="input-place"></input>
+          <div>日程</div>
+            <div class="input-schedule">
+              <input id="startDate" type="date"><span class="leftbar">⇒</span></input>
+              <input id="endDate" type="date"></input>
             </div>
-            <h3 class="menu">旅程表 -day1-</h3>
-          </div>
-          <div class="ryotei-a">
-              <table></table>
-          </div>
-        </div>      
-
-        <div class="app">
-          <div class="app-title">
-            <div class="button">
-             <button id="add-2">+</button> 
-            </div>
-            <h3 class="menu">予約アプリ</h3>
-          </div>
-          <div class="app-a">
-            <table></table>
-          </div>
+            <div class="date"></div>
         </div>
-      </div>        
-
-     <div class="content-2">
+        <img src="image/image-1.png" alt="1人旅行の写真">
+      </div>
+      <div class="content-2"></div>
         <div class="yarukoto">
           <div class="yarukoto-title">
             <div class="button">
               <button id="add-3">+</button> 
             </div>
-            <h3 class="menu">やることリスト</h3>
+            <h4 class="menu">やることリスト</h4>
           </div>
           <div class="yarukoto-a">
             <table></table>
           </div>
         </div>
-
         <div class="mochimono">
           <div class="mochimono-title">
             <div class="button">
               <button id="add-4">+</button> 
               <button id="template">テンプレ</button>
             </div>
-            <h3 class="menu">持ち物リスト</h3>
+            <h4 class="menu">持ち物リスト</h4>
           </div>
           <div class="mochimono-a">
             <table></table>
           </div>
         </div> 
-      </div>
-
+      </div>      
     </div>
-    <script src="./style.js"></script>
+    <div id="content-1" class="content-1">
+      <div class="ryotei">
+        <div class="ryotei-title">
+          <div class="button">
+            <button id="add-1">+</button> 
+          </div>
+          <h4 class="menu"></h4>
+        </div>
+        <div class="ryotei-a">
+          <table></table>
+          <img src="/image/image-3.png" alt="カメラの写真">
+        </div>
+      </div>      
+      <div class="app">
+        <div class="app-title">
+          <div class="button">
+            <button id="add-2">+</button> 
+          </div>
+          <h4 class="menu">予約アプリ</h4>
+        </div>
+        <div class="app-a">
+          <table></table>
+        </div>
+      </div>
+    </div>
+    <div id = content-3></div>
+  <script src="./style.js"></script>
   </body>
 </html>
